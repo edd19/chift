@@ -1,7 +1,7 @@
 name: Deployment to AWS
 env:
   EB_S3_BUCKET_NAME: "elasticbeanstalk-eu-north-1-535424656546"
-  EB_APPLICATION_NAME: "ChiftTest"
+  EB_APPLICATION_NAME: "Chift"
   EB_ENVIRONMENT_NAME: "Chift-env-4"
   DEPLOY_PACKAGE_NAME: "chift-${{ github.sha }}.zip"
   AWS_REGION_NAME: "eu-north-1"
