@@ -147,7 +147,6 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10
 }
 
-
 # Odoo connection settings
 ODOO_SETTINGS = env.dict(
     "ODOO_SETTINGS",
