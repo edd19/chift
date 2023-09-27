@@ -8,4 +8,6 @@ python manage.py collectstatic --noinput;
 python manage.py migrate --noinput;
 # another command to create a superuser (write your own)
 python manage.py refresh_partners;
+# create default superuser
+python manage.py createsuperuser --username admin --noinput
 }
