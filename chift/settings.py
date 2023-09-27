@@ -95,6 +95,7 @@ DATABASES = {
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
+DJANGO_SUPERUSER_PASSWORD = env.get_value("DJANGO_SUPERUSER_PASSWORD", cast=str, default=None)
 
 AUTH_PASSWORD_VALIDATORS = [
     {
