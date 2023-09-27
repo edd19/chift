@@ -1,0 +1,4 @@
+Django==4.2.5
+
+# Settings
+django-environ==0.11.2
