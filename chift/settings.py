@@ -132,3 +132,11 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Odoo connection settings
+ODOO_SETTINGS = env.dict(
+    "ODOO_SETTINGS",
+    cast={"value": str},
+    default={}
+)
